@@ -70,10 +70,7 @@ class TodoController extends Controller
         if ($form->isSubmitted() && $form->isValid()) {
             $em = $this->getDoctrine()->getManager()->flush();
 
-            $this->addFlash(
-                'success',
-                'Todo Updated'
-            );
+            $this->addFlash('success','Todo Updated');
 
             return $this->redirectToRoute('todo_list');
         }
@@ -103,10 +100,7 @@ class TodoController extends Controller
         $em->remove($todo);
         $em->flush();
 
-        $this->addFlash(
-            'notice',
-            'Todo Removed'
-        );
+        $this->addFlash('notice', 'Todo Removed');
 
         return $this->redirectToRoute('todo_list');
     }
