@@ -26,25 +26,19 @@ class TodoType extends AbstractType
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
-                    )
-                )
-            )
+            )))
             ->add(
                 'category', TextType::class, array(
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
-                    )
-                )
-            )
+            )))
             ->add(
                 'description', TextareaType::class, array(
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
-                    )
-                )
-            )
+            )))
             ->add(
                 'priority', ChoiceType::class, array(
                     'choices' => array(
@@ -55,17 +49,14 @@ class TodoType extends AbstractType
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
-                    )
-                )
-            )
+            )))
             ->add(
                 'due_date', DateTimeType::class, array(
                     'attr' => array(
                         'widget' => 'single-text',
                         'style' => 'margin-bottom:30px'
-                    )
-                )
-            );
+            )))
+        ;
     }
     
     /**
