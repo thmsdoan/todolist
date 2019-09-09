@@ -22,14 +22,12 @@ class TodoController extends Controller
     public function listAction()
     {
         // fetch to-dos
-        $todos = $this->getDoctrine()
-        ->getRepository('AppBundle:Todo')
-        ->findAll();
+        $todos = $this->getDoctrine()->getRepository('AppBundle:Todo')->findAll();
 
         // send it over to our index view file
         return $this->render('todo/index.html.twig', array(
-        'todos' => $todos
-    ));
+            'todos' => $todos
+        ));
     }
 
     /**
@@ -66,7 +64,7 @@ class TodoController extends Controller
     public function editAction($id, Request $request, Todo $todo): Response
     {
         $form = $this->createForm(TodoType::class, $todo)
-        ->add('saveAndCreateNew', SubmitType::class);
+            ->add('saveAndCreateNew', SubmitType::class);
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {

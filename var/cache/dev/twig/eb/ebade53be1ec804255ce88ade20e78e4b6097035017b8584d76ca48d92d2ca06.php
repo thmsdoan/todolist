@@ -21,23 +21,23 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_499105f34b2efc8f2937dbabc4fba115cb24651dcf585c83caac85a28b86fbf7 = $this->env->getExtension("native_profiler");
-        $__internal_499105f34b2efc8f2937dbabc4fba115cb24651dcf585c83caac85a28b86fbf7->enter($__internal_499105f34b2efc8f2937dbabc4fba115cb24651dcf585c83caac85a28b86fbf7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/details.html.twig"));
+        $__internal_16b7e24768f91d6646c48ae013fb32010ca20b48527e9ba34d98c432d83e473d = $this->env->getExtension("native_profiler");
+        $__internal_16b7e24768f91d6646c48ae013fb32010ca20b48527e9ba34d98c432d83e473d->enter($__internal_16b7e24768f91d6646c48ae013fb32010ca20b48527e9ba34d98c432d83e473d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/details.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_499105f34b2efc8f2937dbabc4fba115cb24651dcf585c83caac85a28b86fbf7->leave($__internal_499105f34b2efc8f2937dbabc4fba115cb24651dcf585c83caac85a28b86fbf7_prof);
+        $__internal_16b7e24768f91d6646c48ae013fb32010ca20b48527e9ba34d98c432d83e473d->leave($__internal_16b7e24768f91d6646c48ae013fb32010ca20b48527e9ba34d98c432d83e473d_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_303ecf2872f3236bc94685fcd2929619ff265e3d5121b6b3741168208f654ef8 = $this->env->getExtension("native_profiler");
-        $__internal_303ecf2872f3236bc94685fcd2929619ff265e3d5121b6b3741168208f654ef8->enter($__internal_303ecf2872f3236bc94685fcd2929619ff265e3d5121b6b3741168208f654ef8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f5efc7a743c99d0ff7e0926cbf054c7a93fc6cc2a57ae275ca34b6b1afad0c00 = $this->env->getExtension("native_profiler");
+        $__internal_f5efc7a743c99d0ff7e0926cbf054c7a93fc6cc2a57ae275ca34b6b1afad0c00->enter($__internal_f5efc7a743c99d0ff7e0926cbf054c7a93fc6cc2a57ae275ca34b6b1afad0c00_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
-        echo "<p><a class=\"btn btn-primary\" href=\"/todolist/web/home\">Back To Todos</a>
+        echo "<p><a class=\"btn btn-primary\" href=\"/todolist/web\">Back To Todos</a>
 <hr>
 <h2 class=\"page-header\">";
         // line 5
@@ -63,7 +63,7 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 </ul>
 ";
         
-        $__internal_303ecf2872f3236bc94685fcd2929619ff265e3d5121b6b3741168208f654ef8->leave($__internal_303ecf2872f3236bc94685fcd2929619ff265e3d5121b6b3741168208f654ef8_prof);
+        $__internal_f5efc7a743c99d0ff7e0926cbf054c7a93fc6cc2a57ae275ca34b6b1afad0c00->leave($__internal_f5efc7a743c99d0ff7e0926cbf054c7a93fc6cc2a57ae275ca34b6b1afad0c00_prof);
 
     }
 
@@ -84,7 +84,7 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 }
 /* {% extends 'base.html.twig' %}*/
 /* {% block body %}*/
-/* <p><a class="btn btn-primary" href="/todolist/web/home">Back To Todos</a>*/
+/* <p><a class="btn btn-primary" href="/todolist/web">Back To Todos</a>*/
 /* <hr>*/
 /* <h2 class="page-header">{{todo.name}}</h2>*/
 /* <ul class="list-group">*/

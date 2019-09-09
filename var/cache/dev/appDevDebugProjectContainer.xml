@@ -25,9 +25,9 @@
     <parameter key="kernel.container_class">appDevDebugProjectContainer</parameter>
     <parameter key="database_host">localhost</parameter>
     <parameter key="database_port">null</parameter>
-    <parameter key="database_name">todolist</parameter>
-    <parameter key="database_user">root</parameter>
-    <parameter key="database_password">root</parameter>
+    <parameter key="database_name">smprsuyryy</parameter>
+    <parameter key="database_user">smprsuyryy</parameter>
+    <parameter key="database_password">4a6QCqxq9e</parameter>
     <parameter key="mailer_transport">smtp</parameter>
     <parameter key="mailer_host">127.0.0.1</parameter>
     <parameter key="mailer_user">null</parameter>
@@ -1486,7 +1486,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>5d75b82430b5f8.48322466</argument>
+            <argument>5d75bd187761d1.10553305</argument>
           </service>
         </argument>
       </argument>
@@ -1615,7 +1615,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>5d75b82430b5f8.48322466</argument>
+            <argument>5d75bd187761d1.10553305</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -1915,9 +1915,9 @@
         <argument key="driver">pdo_mysql</argument>
         <argument key="host">localhost</argument>
         <argument key="port">null</argument>
-        <argument key="dbname">todolist</argument>
-        <argument key="user">root</argument>
-        <argument key="password">root</argument>
+        <argument key="dbname">smprsuyryy</argument>
+        <argument key="user">smprsuyryy</argument>
+        <argument key="password">4a6QCqxq9e</argument>
         <argument key="charset">UTF8</argument>
         <argument key="driverOptions" type="collection"/>
         <argument key="defaultTableOptions" type="collection"/>
