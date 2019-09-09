@@ -21,20 +21,20 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f75d0b57b6fe580eb4f1405bdf4c90ac62176cab3fb6d2237bd062f09c932b93 = $this->env->getExtension("native_profiler");
-        $__internal_f75d0b57b6fe580eb4f1405bdf4c90ac62176cab3fb6d2237bd062f09c932b93->enter($__internal_f75d0b57b6fe580eb4f1405bdf4c90ac62176cab3fb6d2237bd062f09c932b93_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/details.html.twig"));
+        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9 = $this->env->getExtension("native_profiler");
+        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9->enter($__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/details.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_f75d0b57b6fe580eb4f1405bdf4c90ac62176cab3fb6d2237bd062f09c932b93->leave($__internal_f75d0b57b6fe580eb4f1405bdf4c90ac62176cab3fb6d2237bd062f09c932b93_prof);
+        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9->leave($__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_2afd08d3b9f6c214a32a8c66b1f5b49f5f100d427d2b9636051b2e57bffd2f41 = $this->env->getExtension("native_profiler");
-        $__internal_2afd08d3b9f6c214a32a8c66b1f5b49f5f100d427d2b9636051b2e57bffd2f41->enter($__internal_2afd08d3b9f6c214a32a8c66b1f5b49f5f100d427d2b9636051b2e57bffd2f41_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc = $this->env->getExtension("native_profiler");
+        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc->enter($__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
         echo "    <br>
@@ -57,14 +57,14 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
         // line 10
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["todo"]) ? $context["todo"] : $this->getContext($context, "todo")), "description", array()), "html", null, true);
         echo "</li>
-        <li class=\"list-group-item\"><strong>";
+        <li class=\"list-group-item\">Due: <strong>";
         // line 11
         echo twig_escape_filter($this->env, twig_date_format_filter($this->env, $this->getAttribute((isset($context["todo"]) ? $context["todo"] : $this->getContext($context, "todo")), "dueDate", array()), "F j, Y, g:i a"), "html", null, true);
         echo "</strong></li>
     </ul>
 ";
         
-        $__internal_2afd08d3b9f6c214a32a8c66b1f5b49f5f100d427d2b9636051b2e57bffd2f41->leave($__internal_2afd08d3b9f6c214a32a8c66b1f5b49f5f100d427d2b9636051b2e57bffd2f41_prof);
+        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc->leave($__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc_prof);
 
     }
 
@@ -93,6 +93,6 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 /*         <li class="list-group-item">Category: {{todo.category}}</li>*/
 /*         <li class="list-group-item">Priority: {{todo.priority}}</li>*/
 /*         <li class="list-group-item">Description: {{todo.description}}</li>*/
-/*         <li class="list-group-item"><strong>{{todo.dueDate|date('F j, Y, g:i a')}}</strong></li>*/
+/*         <li class="list-group-item">Due: <strong>{{todo.dueDate|date('F j, Y, g:i a')}}</strong></li>*/
 /*     </ul>*/
 /* {% endblock %}*/
