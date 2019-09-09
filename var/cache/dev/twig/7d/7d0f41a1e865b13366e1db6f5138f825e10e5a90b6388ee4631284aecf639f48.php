@@ -21,38 +21,40 @@ class __TwigTemplate_44edb7d172f96504e0674114e872f34b7f347c95af6c41b6851c7612959
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fc332d65d7ef0d69a7adac3181ab71f95813b2876a3b1a376f3e4974e7e314a7 = $this->env->getExtension("native_profiler");
-        $__internal_fc332d65d7ef0d69a7adac3181ab71f95813b2876a3b1a376f3e4974e7e314a7->enter($__internal_fc332d65d7ef0d69a7adac3181ab71f95813b2876a3b1a376f3e4974e7e314a7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/edit.html.twig"));
+        $__internal_74ab66dae762dad1a9aa5dcfd7823ee8233a92886b54cb4bb63fea2948160ac8 = $this->env->getExtension("native_profiler");
+        $__internal_74ab66dae762dad1a9aa5dcfd7823ee8233a92886b54cb4bb63fea2948160ac8->enter($__internal_74ab66dae762dad1a9aa5dcfd7823ee8233a92886b54cb4bb63fea2948160ac8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/edit.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_fc332d65d7ef0d69a7adac3181ab71f95813b2876a3b1a376f3e4974e7e314a7->leave($__internal_fc332d65d7ef0d69a7adac3181ab71f95813b2876a3b1a376f3e4974e7e314a7_prof);
+        $__internal_74ab66dae762dad1a9aa5dcfd7823ee8233a92886b54cb4bb63fea2948160ac8->leave($__internal_74ab66dae762dad1a9aa5dcfd7823ee8233a92886b54cb4bb63fea2948160ac8_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_dbd39642780a53d68a68cc836d192ca7c9f4063c524a00c0aa0e932465b18a2f = $this->env->getExtension("native_profiler");
-        $__internal_dbd39642780a53d68a68cc836d192ca7c9f4063c524a00c0aa0e932465b18a2f->enter($__internal_dbd39642780a53d68a68cc836d192ca7c9f4063c524a00c0aa0e932465b18a2f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_74b37253d4f59a05c334d6317afad15b51353d24548ceac09f2bd1ebe520ff9f = $this->env->getExtension("native_profiler");
+        $__internal_74b37253d4f59a05c334d6317afad15b51353d24548ceac09f2bd1ebe520ff9f->enter($__internal_74b37253d4f59a05c334d6317afad15b51353d24548ceac09f2bd1ebe520ff9f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
-        echo "<p><h2 class=\"page-header\">Edit Todo</h2><p>
-";
-        // line 4
+        echo "    <br>
+        <h2 class=\"page-header\">Edit Todo</h2>
+    <br>
+    ";
+        // line 6
         echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_start');
         echo "
-";
-        // line 5
+        ";
+        // line 7
         echo $this->env->getExtension('form')->renderer->searchAndRenderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'widget');
         echo "
-";
-        // line 6
+    ";
+        // line 8
         echo         $this->env->getExtension('form')->renderer->renderBlock((isset($context["form"]) ? $context["form"] : $this->getContext($context, "form")), 'form_end');
         echo "
 ";
         
-        $__internal_dbd39642780a53d68a68cc836d192ca7c9f4063c524a00c0aa0e932465b18a2f->leave($__internal_dbd39642780a53d68a68cc836d192ca7c9f4063c524a00c0aa0e932465b18a2f_prof);
+        $__internal_74b37253d4f59a05c334d6317afad15b51353d24548ceac09f2bd1ebe520ff9f->leave($__internal_74b37253d4f59a05c334d6317afad15b51353d24548ceac09f2bd1ebe520ff9f_prof);
 
     }
 
@@ -68,13 +70,15 @@ class __TwigTemplate_44edb7d172f96504e0674114e872f34b7f347c95af6c41b6851c7612959
 
     public function getDebugInfo()
     {
-        return array (  51 => 6,  47 => 5,  43 => 4,  40 => 3,  34 => 2,  11 => 1,);
+        return array (  53 => 8,  49 => 7,  45 => 6,  40 => 3,  34 => 2,  11 => 1,);
     }
 }
 /* {% extends 'base.html.twig' %}*/
 /* {% block body %}*/
-/* <p><h2 class="page-header">Edit Todo</h2><p>*/
-/* {{ form_start(form) }}*/
-/* {{ form_widget(form) }}*/
-/* {{ form_end(form) }}*/
+/*     <br>*/
+/*         <h2 class="page-header">Edit Todo</h2>*/
+/*     <br>*/
+/*     {{ form_start(form) }}*/
+/*         {{ form_widget(form) }}*/
+/*     {{ form_end(form) }}*/
 /* {% endblock %}*/
