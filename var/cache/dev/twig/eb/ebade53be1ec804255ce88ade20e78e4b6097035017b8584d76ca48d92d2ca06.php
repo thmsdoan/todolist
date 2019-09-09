@@ -1,6 +1,6 @@
 <?php
 
-/* todo/details.html.twig */
+/* :todo:details.html.twig */
 class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c8fe6d extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", "todo/details.html.twig", 1);
+        $this->parent = $this->loadTemplate("base.html.twig", ":todo:details.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
         );
@@ -21,25 +21,25 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9 = $this->env->getExtension("native_profiler");
-        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9->enter($__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "todo/details.html.twig"));
+        $__internal_b797b3f1780cad600bda8db7112d7668d818e95783a8f4c2a16e44fe986cbc88 = $this->env->getExtension("native_profiler");
+        $__internal_b797b3f1780cad600bda8db7112d7668d818e95783a8f4c2a16e44fe986cbc88->enter($__internal_b797b3f1780cad600bda8db7112d7668d818e95783a8f4c2a16e44fe986cbc88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":todo:details.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9->leave($__internal_a857d5f7a01c043b5f095ee3790642aab1853eb1625e814ea6220948f46ba2f9_prof);
+        $__internal_b797b3f1780cad600bda8db7112d7668d818e95783a8f4c2a16e44fe986cbc88->leave($__internal_b797b3f1780cad600bda8db7112d7668d818e95783a8f4c2a16e44fe986cbc88_prof);
 
     }
 
     // line 2
     public function block_body($context, array $blocks = array())
     {
-        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc = $this->env->getExtension("native_profiler");
-        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc->enter($__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_48c336362a79c279a460f4c1dfe122a9a07e3ac9fac2aadfea0f6b2286192f18 = $this->env->getExtension("native_profiler");
+        $__internal_48c336362a79c279a460f4c1dfe122a9a07e3ac9fac2aadfea0f6b2286192f18->enter($__internal_48c336362a79c279a460f4c1dfe122a9a07e3ac9fac2aadfea0f6b2286192f18_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 3
         echo "    <br>
     <a class=\"btn btn-primary\" href=\"/todolist/web\">Back To Todos</a>
-    <hr></hr>
+    <hr>
     <h2 class=\"page-header\">";
         // line 6
         echo twig_escape_filter($this->env, $this->getAttribute((isset($context["todo"]) ? $context["todo"] : $this->getContext($context, "todo")), "name", array()), "html", null, true);
@@ -64,13 +64,13 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
     </ul>
 ";
         
-        $__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc->leave($__internal_ef1100f479cad80a60251e9685f516c09c607a2dfaf38d3d7f8f9d049f6e53fc_prof);
+        $__internal_48c336362a79c279a460f4c1dfe122a9a07e3ac9fac2aadfea0f6b2286192f18->leave($__internal_48c336362a79c279a460f4c1dfe122a9a07e3ac9fac2aadfea0f6b2286192f18_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "todo/details.html.twig";
+        return ":todo:details.html.twig";
     }
 
     public function isTraitable()
@@ -87,7 +87,7 @@ class __TwigTemplate_7d6ee1d59912e3700a09637afcb9384ef485679cc21932a505387a9351c
 /* {% block body %}*/
 /*     <br>*/
 /*     <a class="btn btn-primary" href="/todolist/web">Back To Todos</a>*/
-/*     <hr></hr>*/
+/*     <hr>*/
 /*     <h2 class="page-header">{{todo.name}}</h2>*/
 /*     <ul class="list-group">*/
 /*         <li class="list-group-item">Category: {{todo.category}}</li>*/
