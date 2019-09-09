@@ -22,9 +22,7 @@ class TodoType extends AbstractType
     {
         $builder
             ->add(
-                'name',
-                TextType::class,
-                array(
+                'name', TextType::class, array(
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
@@ -32,9 +30,7 @@ class TodoType extends AbstractType
                 )
             )
             ->add(
-                'category',
-                TextType::class,
-                array(
+                'category', TextType::class, array(
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
@@ -42,9 +38,7 @@ class TodoType extends AbstractType
                 )
             )
             ->add(
-                'description',
-                TextareaType::class,
-                array(
+                'description', TextareaType::class, array(
                     'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
@@ -52,9 +46,7 @@ class TodoType extends AbstractType
                 )
             )
             ->add(
-                'priority',
-                ChoiceType::class,
-                array(
+                'priority', ChoiceType::class, array(
                     'choices' => array(
                         'Incomplete' => 'Incomplete',
                         'In Progress' => 'In Progress',
@@ -67,9 +59,7 @@ class TodoType extends AbstractType
                 )
             )
             ->add(
-                'due_date',
-                DateTimeType::class,
-                array(
+                'due_date', DateTimeType::class, array(
                     'attr' => array(
                         'widget' => 'single-text',
                         'style' => 'margin-bottom:30px'

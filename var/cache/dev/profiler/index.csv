@@ -25,3 +25,9 @@ ccf6c8,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/w
 6bef72,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568024971,,200
 ecca55,127.0.0.1,POST,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568024974,,302
 dd2504,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024975,,200
+a6cb17,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568026356,,200
+ec9084,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/details/6,1568026357,,200
+827998,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568026358,,200
+feba51,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568026360,,200
+998b13,127.0.0.1,POST,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568026361,,302
+9f5fd9,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568026361,,200
