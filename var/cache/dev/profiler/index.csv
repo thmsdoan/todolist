@@ -4,3 +4,16 @@ afad07,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/w
 70ae4e,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/create,1568023707,,200
 9ebc21,127.0.0.1,POST,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/create,1568023721,,302
 d2b53e,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568023722,,200
+b149f9,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024270,,200
+09e429,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/delete/21,1568024273,,302
+228cfa,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024273,,200
+87ae19,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024736,361ba6,200
+361ba6,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024736,,500
+1616d0,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024855,4039e3,200
+4039e3,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024855,,500
+2fb93c,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024884,,200
+74a19e,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568024886,,200
+62946d,127.0.0.1,POST,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/edit/6,1568024887,,302
+e4c585,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024887,,200
+68b028,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/todo/details/6,1568024889,,200
+cb36b5,127.0.0.1,GET,http://wordpress-320591-982284.cloudwaysapps.com/todolist/web/,1568024893,,200

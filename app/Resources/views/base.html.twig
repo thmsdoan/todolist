@@ -35,13 +35,8 @@
         <main role="main" class="container">
             <div class="row">
                 <div class="col-md-12">
-                    {% for label, flashes in app.session.flashbag.all %}
-                        {% for flash in flashes %}
-                            <div class="flash-{{ label }}">
-                                {{ flash }}
-                            </div>
-                        {% endfor %}
-                    {% endfor %}
+                    {{ include('default/_flash_messages.html.twig') }}
+
                     {% block body %}{% endblock %}
                 </div>
             </div>
