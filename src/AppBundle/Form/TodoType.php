@@ -55,11 +55,12 @@ class TodoType extends AbstractType
                 'priority',
                 ChoiceType::class,
                 array(
-            'choices' => array(
-                'Incomplete' => 'Incomplete',
-                'In Progress' => 'In Progress',
-                'Completed'=>'Completed'),
-                'attr' => array(
+                    'choices' => array(
+                        'Incomplete' => 'Incomplete',
+                        'In Progress' => 'In Progress',
+                        'Completed'=>'Completed'
+                    ),
+                    'attr' => array(
                         'class' => 'form-control',
                         'style' => 'margin-bottom:15px'
                     )
