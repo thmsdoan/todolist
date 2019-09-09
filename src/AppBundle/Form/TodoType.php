@@ -21,13 +21,13 @@ class TodoType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-        ->add(
-            'name',
-            TextType::class,
-            array(
-            'attr' => array(
-                'class' => 'form-control',
-                'style' => 'margin-bottom:15px'
+            ->add(
+                'name',
+                TextType::class,
+                array(
+                'attr' => array(
+                    'class' => 'form-control',
+                    'style' => 'margin-bottom:15px'
                 )
             )
         )
