@@ -25,32 +25,32 @@ class TodoType extends AbstractType
                 'name',
                 TextType::class,
                 array(
-                'attr' => array(
-                    'class' => 'form-control',
-                    'style' => 'margin-bottom:15px'
+                    'attr' => array(
+                        'class' => 'form-control',
+                        'style' => 'margin-bottom:15px'
+                    )
                 )
             )
-        )
             ->add(
                 'category',
                 TextType::class,
                 array(
-                'attr' => array(
-                    'class' => 'form-control',
-                    'style' => 'margin-bottom:15px'
+                    'attr' => array(
+                        'class' => 'form-control',
+                        'style' => 'margin-bottom:15px'
+                    )
                 )
             )
-        )
             ->add(
                 'description',
                 TextareaType::class,
                 array(
-            'attr' => array(
-                'class' => 'form-control',
-                'style' => 'margin-bottom:15px'
+                    'attr' => array(
+                        'class' => 'form-control',
+                        'style' => 'margin-bottom:15px'
+                    )
                 )
             )
-        )
             ->add(
                 'priority',
                 ChoiceType::class,
@@ -60,20 +60,21 @@ class TodoType extends AbstractType
                 'In Progress' => 'In Progress',
                 'Completed'=>'Completed'),
                 'attr' => array(
-                    'class' => 'form-control',
-                    'style' => 'margin-bottom:15px'
+                        'class' => 'form-control',
+                        'style' => 'margin-bottom:15px'
+                    )
                 )
             )
-        )
             ->add(
                 'due_date',
                 DateTimeType::class,
-                array('attr' => array(
-                    'widget' => 'single-text',
-                    'style' => 'margin-bottom:30px'
+                array(
+                    'attr' => array(
+                        'widget' => 'single-text',
+                        'style' => 'margin-bottom:30px'
+                    )
                 )
-            )
-        );
+            );
     }
     
     /**
