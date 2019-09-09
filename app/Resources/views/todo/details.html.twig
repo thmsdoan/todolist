@@ -1,12 +1,13 @@
 {% extends 'base.html.twig' %}
 {% block body %}
-<p><a class="btn btn-primary" href="/todolist/web">Back To Todos</a>
-<hr>
-<h2 class="page-header">{{todo.name}}</h2>
-<ul class="list-group">
-    <li class="list-group-item">Category: {{todo.category}}</li>
-    <li class="list-group-item">Priority: {{todo.priority}}</li>
-    <li class="list-group-item">Description: {{todo.description}} </li>
-    <li class="list-group-item">{{todo.dueDate|date('F j, Y, g:i a')}}</strong> </li>
-</ul>
+    <p></p>
+    <a class="btn btn-primary" href="/todolist/web">Back To Todos</a>
+    <hr></hr>
+    <h2 class="page-header">{{todo.name}}</h2>
+    <ul class="list-group">
+        <li class="list-group-item">Category: {{todo.category}}</li>
+        <li class="list-group-item">Priority: {{todo.priority}}</li>
+        <li class="list-group-item">Description: {{todo.description}}</li>
+        <li class="list-group-item"><strong>{{todo.dueDate|date('F j, Y, g:i a')}}</strong></li>
+    </ul>
 {% endblock %}
