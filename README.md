@@ -3,7 +3,7 @@ Task Management System
 
 Demo it [here][1] on a live server.
 
-To run from your own server, just change the database name, user and password in /app/config/parameters.yml.
+To run from your own server, navigate to '/app/config/parameters.yml', and change the database name, user and password to your specs.
 
 ![config-howto](https://raw.githubusercontent.com/thmsdoan/todolist/master/config-howto.png)
 
