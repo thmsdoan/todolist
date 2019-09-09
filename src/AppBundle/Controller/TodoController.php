@@ -104,9 +104,9 @@ class TodoController extends Controller
         $em->flush();
 
         $this->addFlash(
-                'notice',
-                'Todo Removed'
-            );
+            'notice',
+            'Todo Removed'
+        );
 
         return $this->redirectToRoute('todo_list');
     }
