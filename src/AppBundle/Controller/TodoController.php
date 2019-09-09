@@ -78,10 +78,10 @@ class TodoController extends Controller
             return $this->redirectToRoute('todo_list');
         }
 
-        return $this->render('todo/edit.html.twig', [
+        return $this->render('todo/edit.html.twig', array(
             'todo' => $todo,
             'form' => $form->createView(),
-        ]);
+        ));
     }
 
     /**
@@ -90,8 +90,8 @@ class TodoController extends Controller
     public function show(Todo $todo): Response
     {
         return $this->render('todo/details.html.twig', array(
-        'todo' => $todo,
-    ));
+            'todo' => $todo,
+        ));
     }
 
     /**
